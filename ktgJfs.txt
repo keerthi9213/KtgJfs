@@ -1,0 +1,199 @@
+off - 0  ;on - 1           ----Ascii/Unicode---------- 
+
+
+s.l :- design a website
+
+p.l  :- devloper a software
+
+									computer languges 
+									
+scripting languges															programming languges
+						
+html,css,js,bootstrap ,....					(procedure oreinted programming)pop				oop
+												basic,python,.....						java,.net,c++,lisp........
+												
+												
+	security  :- Encapsulation,Abstraction
+
+	performance :-Inheritace ,Polymorphism
+	
+	
+	java :-
+	
+	
+	(1)platform independency
+	
+	
+	(2)Garbage Collector:-
+	
+	history :-
+	=======
+	
+	sunmicro system 
+	
+	greentalk(.gt)-------------------->oak --------------->java(.java)
+	
+	jdk 1.0------------------------------------------------>jdk 22[8,11,17,21]
+	
+	cmd>
+	java --version
+	
+	
+	3 editions:-
+	
+	jse/j2se:-standalone [no client-server ]				core java
+	
+	jee/j2ee:-distributed [client-server] ,web app     		 adv java
+	
+	jme /j2me:-mobile app's										minute details java
+	
+	
+	james gosling
+	
+	
+	26 alphabets
+	
+	
+		variables:-
+		=========
+		
+		syntax :-
+		
+				datatype varname;			//declaration 
+				
+				datatype varname = value;   //initialization
+				
+				
+		local variable(within the method body)		global variables(outside the method body)
+		
+													static					instance
+													
+													
+	syntax:-
+	========
+	
+	static - 		static	datatype varname = value;
+	
+	instance -      datatype varname = value;
+	
+	memory allocation :-
+	==================
+	
+	static -static prop's(var,method,constr) will gets the memory space only once when the class
+							loads  into the jvm
+	
+	instance - instance prop's will gets the memory space for every object creation.
+					
+					classname objname = new classname();  //object creation.
+					
+	
+	access:-
+	=======
+	
+	static :- Static prop's can be accessed by the class reference
+	
+	instance - Instatnce prop's can accessed by the object reference
+	
+	in memory:-
+	==========
+	
+	static - method area 
+	
+	instace - heap area
+	
+	
+	usage:-
+	======
+	
+	static - to store common data.
+	
+	instance - to store unique data.
+	
+	
+	
+	Operators :-
+	
+	a + b
+	
+	
+	ULTRA AB
+	
+	Unary Operators
+	
+	Logical Operators
+	
+	Terinary Operators
+	
+	Relational Operators
+	
+	Assignment Operators
+	
+	Arithmetic Operators
+	
+	Bitwise Operators
+	
+	ide shortcuts :-'
+	
+	ctrl + space :- suggestions
+	
+	ctrl + / :- comments
+	
+	ctrl +shift +/ :- multiline comments
+	
+	methods:-A group of statements altogether perfroms a single task
+	========
+	
+	syntax/singnature :-
+	
+			accessmodifier returntype methodname(params....){
+			
+					//body
+			}
+	
+	(1)static method:-
+	------------------
+	
+	syntax:-
+	
+		accessmodifier static returntype methodname(params....){
+			
+					//body
+			}
+	
+	(2)Dynamic method:-
+	--------------------
+	
+	syntax/singnature :-
+	
+			accessmodifier returntype methodname(params....){
+			
+					//body
+			}
+		
+		
+		class = var's + method's 
+		
+		class = class member's + member functions
+		
+		classname objectname = new classname(); 
+		
+		
+		Inheritace:-Accquring parent class properties to the child class.
+		===========	
+		
+		extends							implements
+		
+		class --->class
+		
+		
+		class A{
+		100 METHODS
+		}
+		class B parent A{
+		20 methods + 100 mthod = 120 methods
+		}
+		
+		
+		* MI is not supported in java @class level
+		
+		*MI is supported in java @interface level
